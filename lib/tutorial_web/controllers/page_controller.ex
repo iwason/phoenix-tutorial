@@ -4,4 +4,7 @@ defmodule TutorialWeb.PageController do
   def index(conn, _params) do
     render conn, "index.html"
   end
+  def moge(conn, _params) do
+    render conn, "moge.html"
+  end
 end
